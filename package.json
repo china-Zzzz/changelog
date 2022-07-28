@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz",
     "release": "standard-version"
   },
   "repository": {
@@ -19,11 +20,13 @@
   "homepage": "https://github.com/china-Zzzz/changelog#readme",
   "devDependencies": {
     "@commitlint/prompt-cli": "^17.0.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
     "git-cz": "^4.9.0"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/git-cz"
+      "path": "node_modules/cz-customizable"
     }
   },
   "dependencies": {
