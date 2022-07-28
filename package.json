@@ -1,6 +1,6 @@
 {
   "name": "changelog",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,7 @@
   "devDependencies": {
     "@commitlint/prompt-cli": "^17.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "cz-customizable": "^6.3.0",
-    "git-cz": "^4.9.0"
+    "cz-customizable": "^6.3.0"
   },
   "config": {
     "commitizen": {
