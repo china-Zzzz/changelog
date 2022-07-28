@@ -1,6 +1,6 @@
 {
   "name": "changelog",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,9 +20,10 @@
   "homepage": "https://github.com/china-Zzzz/changelog#readme",
   "devDependencies": {
     "@commitlint/prompt-cli": "^17.0.3",
+    "conventional-changelog": "^3.1.25",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.3.0",
-    "git-cz": "^4.9.0"
+    "standard-version": "^9.5.0"
   },
   "config": {
     "commitizen": {
@@ -30,6 +31,6 @@
     }
   },
   "dependencies": {
-    "standard-version": "^9.5.0"
+    "conventional-changelog-cli": "^2.2.2"
   }
 }
