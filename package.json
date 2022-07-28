@@ -21,7 +21,8 @@
   "devDependencies": {
     "@commitlint/prompt-cli": "^17.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "cz-customizable": "^6.3.0"
+    "cz-customizable": "^6.3.0",
+    "git-cz": "^4.9.0"
   },
   "config": {
     "commitizen": {
